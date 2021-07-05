@@ -1,0 +1,38 @@
+{
+  "name": "ane-collection",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "export": "npm run build && next export -o build"
+  },
+  "dependencies": {
+    "@material-ui/core": "^4.11.3",
+    "@material-ui/icons": "^4.11.2",
+    "@stripe/stripe-js": "^1.13.2",
+    "axios": "^0.21.1",
+    "bcrypt": "^5.0.1",
+    "emailjs-com": "^2.6.4",
+    "formidable": "^1.2.2",
+    "lodash": "^4.17.21",
+    "material-testimonial-card": "0.0.3",
+    "moment": "^2.29.1",
+    "mv": "^2.1.1",
+    "mysql": "^2.18.1",
+    "next": "10.0.6",
+    "next-iron-session": "^4.1.12",
+    "nodemailer": "^6.5.0",
+    "nprogress": "^0.2.0",
+    "pdfkit": "^0.12.1",
+    "react": "17.0.1",
+    "react-dom": "17.0.1",
+    "react-hook-form": "^6.15.4",
+    "react-material-ui-carousel": "^2.2.1",
+    "react-toastify": "^7.0.3",
+    "serverless-mysql": "^1.5.4",
+    "stripe": "^8.143.0",
+    "swr": "^0.5.3"
+  }
+}
