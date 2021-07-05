@@ -114,10 +114,3 @@ Inside `/api/checkout/create-session.js`:
 ```code
 const stripe = require('stripe')('SECRET_API_KEY')
 ```
-=======
-# Anne Collection E-commerce web app
- E-commerce Web Application for a jewellery business<br/>
- Technologies used: React.js, Next.js, MaterialUI, Stripe(payment processing).<br/>
- Allows users to authenticate securely and manage their details as well as view past payments and orders.<br/>
- Two catalogues for the two different jewellery collections.
->>>>>>> 937e9c526b38b970696f2307ee5d6b7be86402b4
